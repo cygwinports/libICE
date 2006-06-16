@@ -1,0 +1,4 @@
+category: X11
+requires: cygwin xproto
+sdesc: "Xorg Inter Client Exchange Library (development)"
+ldesc: "Xorg Inter Client Exchange Library"
