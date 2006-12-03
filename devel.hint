@@ -1,0 +1,5 @@
+category: X11
+requires: cygwin xproto
+external-source: libICE
+sdesc: "Xorg Inter Client Exchange Library (development)"
+ldesc: "Xorg Inter Client Exchange Library"
