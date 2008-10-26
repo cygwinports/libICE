@@ -1,25 +1,24 @@
 libICE
 ------------------------------------------
-Xorg Inter Client Exchange Library
+X.Org Inter Client Exchange Library
 
 Runtime requirements:
-  cygwin-1.5.24-2
+  cygwin-1.5.25-15
 
 Build requirements:
-  cygwin-1.5.24-2
-  autoconf2.5-2.61-1
-  automake1.10-1.10-1
-  binutils-20060817-1
-  cygport-0.3.5-1
-  gawk-3.1.5-4
+  autoconf2.5-2.63-1
+  automake1.10-1.10.1-1
+  binutils-20080624-2
+  cygport-0.4.2-1
+  gawk-3.1.6-1
   gcc-core-3.4.4-3
-  libtool1.5-1.5.23a-2
+  libtool-2.2.6a-1
   make-3.81-1
-  pkg-config-0.21-1
-  sed-4.1.5-1
-  xorg-util-macros-1.1.5-1
-  xproto-7.0.10-1
-  xtrans-1.0.4-1
+  pkg-config-0.23a-2
+  sed-4.1.5-2
+  xorg-util-macros-1.1.6-1
+  xproto-7.0.14-1
+  xtrans-1.2.2-1
 
 Canonical website:
   http://xorg.freedesktop.org/
@@ -46,15 +45,12 @@ This will create:
 
 Files included in the binary packages:
 
-(libICE)
-  /usr/share/doc/Cygwin/libICE-1.0.4.README
+(libICE6)
+  /usr/bin/cygICE-6.dll
   /usr/share/doc/libICE-1.0.4/AUTHORS
   /usr/share/doc/libICE-1.0.4/COPYING
   /usr/share/doc/libICE-1.0.4/ChangeLog
   /usr/share/doc/libICE-1.0.4/INSTALL
-
-(libICE6)
-  /usr/bin/cygICE-6.dll
 
 (libICE-devel)
   /usr/include/X11/ICE/ICE.h
@@ -63,6 +59,7 @@ Files included in the binary packages:
   /usr/include/X11/ICE/ICEmsg.h
   /usr/include/X11/ICE/ICEproto.h
   /usr/include/X11/ICE/ICEutil.h
+  /usr/lib/libICE.a
   /usr/lib/libICE.dll.a
   /usr/lib/libICE.la
   /usr/lib/pkgconfig/ice.pc
@@ -70,6 +67,9 @@ Files included in the binary packages:
 ------------------
 
 Port Notes:
+
+----- version 1.0.4-2 -----
+Rebuilt.
 
 ----- version 1.0.4-1 -----
 Version bump.
