@@ -7,18 +7,18 @@ Runtime requirements:
 
 Build requirements:
   autoconf2.5-2.63-1
-  automake1.10-1.10.1-1
+  automake1.10-1.10.1-2
   binutils-20080624-2
-  cygport-0.4.2-1
+  cygport-0.4.4-1
   gawk-3.1.6-1
   gcc-core-3.4.4-3
   libtool-2.2.6a-1
-  make-3.81-1
+  make-3.81-2
   pkg-config-0.23a-2
   sed-4.1.5-2
-  xorg-util-macros-1.1.6-1
+  xorg-util-macros-1.2.1-1
   xproto-7.0.14-1
-  xtrans-1.2.2-1
+  xtrans-1.2.3-1
 
 Canonical website:
   http://xorg.freedesktop.org/
@@ -29,17 +29,16 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack libICE-1.0.4-X-src.tar.bz2
+  unpack libICE-1.0.5-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./libICE-1.0.4-X.cygport all
+  cygport ./libICE-1.0.5-X.cygport all
 
 This will create:
-  /usr/src/libICE-1.0.4-X-src.tar.bz2
-  /usr/src/libICE-1.0.4-X.tar.bz2
-  /usr/src/libICE-devel-1.0.4-X.tar.bz2
-  /usr/src/libICE6-1.0.4-X.tar.bz2
+  /usr/src/libICE-1.0.5-X-src.tar.bz2
+  /usr/src/libICE-devel-1.0.5-X.tar.bz2
+  /usr/src/libICE6-1.0.5-X.tar.bz2
 
 -------------------------------------------
 
@@ -47,10 +46,10 @@ Files included in the binary packages:
 
 (libICE6)
   /usr/bin/cygICE-6.dll
-  /usr/share/doc/libICE-1.0.4/AUTHORS
-  /usr/share/doc/libICE-1.0.4/COPYING
-  /usr/share/doc/libICE-1.0.4/ChangeLog
-  /usr/share/doc/libICE-1.0.4/INSTALL
+  /usr/share/doc/libICE-1.0.5/AUTHORS
+  /usr/share/doc/libICE-1.0.5/COPYING
+  /usr/share/doc/libICE-1.0.5/ChangeLog
+  /usr/share/doc/libICE-1.0.5/INSTALL
 
 (libICE-devel)
   /usr/include/X11/ICE/ICE.h
@@ -67,6 +66,9 @@ Files included in the binary packages:
 ------------------
 
 Port Notes:
+
+----- version 1.0.5-1 -----
+Version bump.
 
 ----- version 1.0.4-2 -----
 Rebuilt.
