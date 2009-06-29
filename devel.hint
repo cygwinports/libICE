@@ -1,5 +1,5 @@
 category: X11
-requires: cygwin libICE6 xproto
+requires: libICE6 xproto
 external-source: libICE
 sdesc: "X.Org Inter Client Exchange Library (development)"
 ldesc: "X.Org Inter Client Exchange Library"
