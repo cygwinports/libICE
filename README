@@ -3,23 +3,23 @@ libICE
 X.Org Inter Client Exchange Library
 
 Runtime requirements:
-  cygwin-1.7.0-43
+  cygwin-1.7.0-60
   libgcc1-4.3.2-2
 
 Build requirements:
-  autoconf2.5-2.63-10
-  automake1.10-1.10.1-10
-  binutils-20080624-2
-  cygport-0.9.6-1
+  autoconf2.5-2.64-10
+  automake1.10-1.10.2-10
+  binutils-2.19.51-1
+  cygport-0.9.9-1
   gawk-3.1.6-2
   gcc4-core-4.3.2-2
-  libtool-2.2.7a-1
+  libtool-2.2.7a-14
   make-3.81-2
-  pkg-config-0.23a-2
+  pkg-config-0.23b-10
   sed-4.1.5-2
-  xorg-util-macros-1.2.1-1
+  xorg-util-macros-1.2.2-1
   xproto-7.0.15-1
-  xtrans-1.2.3-1
+  xtrans-1.2.4-1
 
 Canonical website:
   http://xorg.freedesktop.org/
@@ -30,16 +30,16 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack libICE-1.0.5-X-src.tar.bz2
+  unpack libICE-1.0.6-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./libICE-1.0.5-X.cygport all
+  cygport ./libICE-1.0.6-X.cygport all
 
 This will create:
-  /usr/src/libICE-1.0.5-X-src.tar.bz2
-  /usr/src/libICE-devel-1.0.5-X.tar.bz2
-  /usr/src/libICE6-1.0.5-X.tar.bz2
+  /usr/src/libICE-1.0.6-X-src.tar.bz2
+  /usr/src/libICE-devel-1.0.6-X.tar.bz2
+  /usr/src/libICE6-1.0.6-X.tar.bz2
 
 -------------------------------------------
 
@@ -66,6 +66,9 @@ Files included in the binary packages:
 ------------------
 
 Port Notes:
+
+----- version 1.0.6-1 -----
+Version bump for X11R7.5.
 
 ----- version 1.0.5-10 -----
 Initial release for Cygwin 1.7.
