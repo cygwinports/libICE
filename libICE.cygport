@@ -10,3 +10,6 @@ DESCRIPTION="X.Org Inter Client Exchange Library"
 PKG_NAMES="${NAME}6 ${NAME}-devel"
 libICE6_CONTENTS='usr/bin/cygICE-6.dll usr/share/doc/'
 libICE_devel_CONTENTS='usr/include/ usr/lib/'
+
+# provided by cygwin, not libbsd (even if present)
+CYGCONF_ARGS="ac_cv_lib_bsd_arc4random_buf=no"
